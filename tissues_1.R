@@ -1,4 +1,5 @@
-#script to run PU-BMRF analysis with tissues data. This R script runs in parallel
+#Script to run a PU-BMRF for gene interactions network inferance with tissues data. This R script runs in parallel by 
+#submitting tissues.sh (file in this repository) to an HPC cluster.
 #qsub -q all.q -t 1-1887 tissues.sh
 args<-commandArgs(T)
 old_start <- Sys.time()
