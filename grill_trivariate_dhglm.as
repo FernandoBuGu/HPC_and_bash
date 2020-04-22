@@ -1,4 +1,7 @@
-"bash script for  grill format of the trivariate with double hierarchical generalized linear model. Run in ASReml (ABG thesis)" 
+"AngelScript file to be run in ASReml. It runs as grill a trivariate - double hierarchical generalized linear model" 
+"to estimate variance components"
+"feBueno - 2016"  
+  
 !RENAME !ARG 1 2
 !DOPART $1
 univs model
