@@ -1,4 +1,4 @@
-"AngelScript file to be run in ASReml. It runs as grill a trivariate - double hierarchical generalized linear model" 
+"AngelScript to be run in ASReml. It runs as grill a trivariate - double hierarchical generalized linear model" 
 "to estimate variance components"
 "feBueno - 2016"  
   
