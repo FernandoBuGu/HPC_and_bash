@@ -1,12 +1,19 @@
-# HPC_and_bash
-Examples of  bash files for ASReml (thesis 1) and high performance computing (thesis 2)
+trivariate_dhglm.as: AngelScript file to be run in ASReml (Mixed models parameter estimation using 
+Residual Maximum Likelihood). It runs a trivariate - double hierarchical generalized linear model 
+to estimate variance components for variance-traits, such as Litter size variability.
 
-bash_grill.as: actionScript for  grill format of the 
-trivariate with double hierarchical generalized linear model. Run in ASReml (MSc thesis genetic parameters)
+grill_trivariate_dhglm.as: AngelScript file to be run in ASReml (Mixed models parameter estimation using 
+Residual Maximum Likelihood). It runs as grill a trivariate - double hierarchical generalized linear model 
+to estimate variance components for variance-traits, such as Litter size variability.
 
-tissues.sh: .sh file to submit arrays of jobs to the HPC (MSc thesis protein function prediction)
+SQLite_examples.R: R file that uses the R-SQLite package to integrate R and SQLite. Contains 
+queries examples on the mtcars and iris R-datasets.
 
-tissues_parllel: .R script that runs in parallel (i.e. if HPC is not available but there are several cores).
-(MSc thesis protein function prediction)
+bash_grill.as: AngelScript for grill format of a 
+ To be run in ASReml.
 
-trivariate_dhglm.as: script for ASReml (MSc thesis genetic parameters)
+tissues.sh: Bash Shell Script example to submit arrays of jobs to a High Performance Computing (HPC) cluster.
+The script runs multiple versions of 4 different R scripts. File tissues.R within this 
+repository is an example of an R file ready for the Bash Shell script.
+
+tissues_1.R: Example of .R file ready for the Bash Shell script tissues.sh, to be run in HPC.
