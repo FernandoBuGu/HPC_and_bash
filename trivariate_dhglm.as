@@ -1,4 +1,5 @@
-"bash script for the trivariate with double hierarchical generalized linear model. Run in ASReml (ABG thesis)" 
+"AngelScript to run a trivariate - double hierarchical generalized linear model in ASReml" 
+"This enables to estimate variance components, such as for the trait litter size variability" 
 !DEBUG !RENAME !ARG 1 2 3 4
 !DOPART $1
 
