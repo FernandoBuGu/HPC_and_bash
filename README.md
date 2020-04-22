@@ -11,4 +11,4 @@ tissues.sh: Bash Shell Script example to submit arrays of jobs to a High Perform
 The script runs hundreds of versions of 4 different R scripts. File tissues.R within this 
 repository is an .R file example ready for the Bash Shell script.
 
-tissues_1.R: Example of .R file ready for the Bash Shell script tissues.sh, to be run in HPC.
+tissues_1.R: .R file ready for the Bash Shell script tissues.sh to be run in an HPC cluster.
