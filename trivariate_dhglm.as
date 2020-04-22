@@ -1,5 +1,6 @@
 "AngelScript to run a trivariate - double hierarchical generalized linear model in ASReml" 
-"This enables to estimate variance components, such as for the trait litter size variability" 
+"This enables to estimate variance components, such as for the trait litter size variability"
+"feBueno - 2016"
 !DEBUG !RENAME !ARG 1 2 3 4
 !DOPART $1
 
