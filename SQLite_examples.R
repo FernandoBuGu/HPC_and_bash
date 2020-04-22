@@ -1,4 +1,4 @@
-# Examples of queries using R-SQLite on the mtcars and iris datasets
+# Examples of queries using R-SQLite on the mtcars and iris R-datasets
 # Assemble queries, dbFetch, dbBind, dbExecute...
 # feBueno - Feb 2020
 
